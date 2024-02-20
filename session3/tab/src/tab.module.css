@@ -1,0 +1,37 @@
+.tabContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tabButton {
+  height: 48px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #636e72;
+  background-color: #efefef;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.tabButton.active {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.tabButton.inactive {
+  background-color: #efefef;
+  color: #636e72;
+}
+
+.tabContent {
+  border: 1px solid #efefef;
+  font-size: 13px;
+  color: rgb(148, 32, 32);
+  padding: 24px;
+  min-height: 300px;
+}

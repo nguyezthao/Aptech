@@ -1,0 +1,34 @@
+.body {
+  display: flex;
+  padding-bottom: 10px;
+  float: left;
+  padding: 20px;
+}
+.container {
+  width: 250px;
+  height: 270px;
+}
+.child1 {
+  width: 250px;
+  height: 100px;
+}
+.child2 {
+  width: 250px;
+  height: 140px;
+
+  padding-top: 50px;
+  padding-left: 5px;
+}
+.item1 img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.item2 {
+  font-size: 30px;
+  color: white;
+}
+.item3 {
+  font-size: 16px;
+  color: #ffffff;
+}

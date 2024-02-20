@@ -1,0 +1,33 @@
+.container {
+  width: 900px;
+  height: 39px;
+  background-color: rgb(223, 233, 229);
+  display: flex;
+  margin-bottom: 10px;
+}
+.child1 {
+  width: 130px;
+  height: 39px;
+  background-color: black;
+  justify-content: flex-end;
+  align-items: center;
+}
+.child2 {
+  display: flex;
+  width: 290px;
+  background-color: rgb(230, 82, 82);
+}
+.content1 {
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  margin-left: 30px;
+  margin-top: 12px;
+  font-size: 15px;
+}
+.content2 {
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-top: 12px;
+}

@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 300px;
+  height: 500px;
+}
+.child1 {
+  width: 300px;
+  height: 300px;
+}
+.child1 img {
+  height: 300px;
+  width: 300px;
+}
+.child2 {
+  width: 300px;
+  height: 50px;
+  padding-top: -50px;
+  margin-top: -4px;
+  border-bottom: 1px solid rgb(143, 136, 136);
+  text-align: left;
+  font-size: 16px;
+}
+.child3 {
+  width: 300px;
+
+  text-align: left;
+  font-size: 16px;
+  padding-top: 8px;
+}
+.child4 {
+  text-align: left;
+  padding-top: 0px;
+}

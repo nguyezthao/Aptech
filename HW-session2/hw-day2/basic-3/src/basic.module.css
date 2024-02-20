@@ -1,0 +1,45 @@
+.container {
+  width: 390px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.child1 {
+  width: 380px;
+  height: 300px;
+
+  box-sizing: border-box;
+  position: relative;
+}
+
+.child3 {
+  width: 370px;
+  height: 200px;
+  padding: 24px;
+  text-align: left;
+}
+.child1 img {
+  width: 270px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sub {
+  color: rgb(175, 192, 192);
+  font-size: 15px;
+}
+.title {
+  color: rgb(40, 42, 43);
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}

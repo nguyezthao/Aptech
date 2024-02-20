@@ -1,0 +1,43 @@
+.container {
+  background-image: url("../public/avt.jpg");
+  width: 1250px;
+  height: 800px;
+  background-size: cover;
+}
+.child {
+  width: 600px;
+  height: 700px;
+  background-color: rgba(62, 60, 60, 0.1);
+  border-radius: 12px;
+}
+.text {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.text1 {
+  color: crimson;
+  font-size: 30px;
+}
+.text2 {
+  color: black;
+  font-size: 26px;
+  font-weight: 10px;
+}
+.text3 {
+  color: azure;
+}
+.checker {
+  color: rgb(212, 193, 193);
+  justify-content: space-between;
+  display: flex;
+  width: 210px;
+}
+.login {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.login input {
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(178, 175, 174, 0.1);
+}

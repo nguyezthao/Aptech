@@ -1,0 +1,31 @@
+.container {
+  width: 595px;
+  height: 200px;
+  display: flex;
+}
+.skill {
+  height: 25px;
+  width: 190px;
+  transform: rotate(-90deg);
+  margin-left: -75px;
+  position: relative;
+  color: #000;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 600px;
+  letter-spacing: 9px;
+  border-bottom: 2px solid #000000;
+  top: 90px;
+  text-align: end;
+}
+.item1 {
+  height: 25px;
+  width: 300px;
+  background-color: #000000;
+  margin-top: 10px;
+}
+.childItem1 {
+  height: 25px;
+  width: 250px;
+  background-color: rgb(215, 182, 182);
+}

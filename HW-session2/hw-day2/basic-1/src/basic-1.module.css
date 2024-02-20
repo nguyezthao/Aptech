@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 600px;
+  height: 300px;
+  margin: 50px;
+  border: 1px solid black;
+  display: flex;
+}
+.child1 {
+  height: 300px;
+  width: 300px;
+}
+.child1 img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.child2 {
+  width: 300px;
+  height: 300px;
+}
+.item1 {
+  width: 300px;
+  height: 100px;
+
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+.item2 {
+  width: 300px;
+  height: 200px;
+
+  color: rgb(188, 182, 174);
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  width: 200px;
+  height: 200px;
+  text-align: left;
+  padding-top: 40px;
+}
